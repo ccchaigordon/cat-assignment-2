@@ -6,9 +6,9 @@ function NavBar() {
 
   return (
     <>
-      <nav>
-        <div className="mx-auto px-2 sm:px-10 lg:px-20 bg-gray-800">
-          <div className="relative flex h-16 items-center justify-between">
+      <nav className="sticky top-0 z-50">
+        <div className="mx-auto px-2 sm:px-4 lg:px-20 bg-gray-800">
+          <div className="relative flex h-20 items-center justify-between">
             {/* Mobile menu dropdown button */}
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
@@ -53,12 +53,12 @@ function NavBar() {
               <div className="flex-shrink-0 flex items-center">
                 <img
                   className="block lg:hidden h-10 w-auto"
-                  src="/src/assets/react.svg"
+                  src="/src/assets/penang_logo.svg"
                   alt="Workflow"
                 />
                 <img
-                  className="hidden lg:block h-10 w-auto"
-                  src="/src/assets/react.svg"
+                  className="hidden lg:block h-12 w-auto"
+                  src="/src/assets/penang_logo.svg"
                   alt="Workflow"
                 />
               </div>
@@ -67,32 +67,32 @@ function NavBar() {
                 <div className="flex space-x-4">
                   <a
                     href="/"
-                    className=" text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-semibold"
+                    className=" text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
                     aria-current="page"
                   >
                     About
                   </a>
                   <a
                     href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-semibold"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
                   >
                     Attractions
                   </a>
                   <a
                     href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-semibold"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
                   >
                     Food
                   </a>
                   <a
                     href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-semibold"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
                   >
                     Accommodations
                   </a>
                   <a
                     href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-semibold"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
                   >
                     Contact Us
                   </a>
