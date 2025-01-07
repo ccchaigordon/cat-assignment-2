@@ -58,7 +58,7 @@ function NavBar() {
                 />
                 <img
                   className="hidden lg:block h-12 w-auto"
-                  src="/src/assets/penang_logo.svg"
+                  src="/public/assets/penang_logo.svg"
                   alt="Workflow"
                 />
               </div>
