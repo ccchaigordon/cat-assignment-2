@@ -98,7 +98,7 @@ function Footer() {
               <ul className="flex flex-col">
                 <li className="flex flex-row cursor-pointer mb-4 text-center items-center">
                   <img
-                    src="/src/assets/phone_call.svg"
+                    src="/public/assets/phone_call.svg"
                     alt=""
                     className="h-6"
                   />
@@ -107,7 +107,7 @@ function Footer() {
                   </p>
                 </li>
                 <li className="flex flex-row cursor-pointer mb-4 text-center items-center">
-                  <img src="/src/assets/email.svg" alt="" className="h-6" />
+                  <img src="/public/assets/email.svg" alt="" className="h-6" />
                   <a
                     href="/"
                     className="text-gray-600 hover:text-gray-900 ml-2 text-xs md:text-sm"
