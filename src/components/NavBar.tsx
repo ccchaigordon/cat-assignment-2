@@ -109,7 +109,7 @@ function NavBar() {
               isMenuOpen ? "block" : "hidden"
             } dropdown-item absolute inset-x-0 top-full mt-2 px-2 shadow-lg sm:hidden w-7/12 mx-2 bg-gray-800 rounded-2xl`}
           >
-            <div className="mt-3 px-4 pt-2 pb-3 space-y-1">
+            <div className="mt-3 px-4 pb-3 space-y-1">
               <a
                 href="#"
                 className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
