@@ -53,7 +53,7 @@ function NavBar() {
               <div className="flex-shrink-0 flex items-center">
                 <img
                   className="block lg:hidden h-10 w-auto"
-                  src="/src/assets/penang_logo.svg"
+                  src="/public/assets/penang_logo.svg"
                   alt="Workflow"
                 />
                 <img
