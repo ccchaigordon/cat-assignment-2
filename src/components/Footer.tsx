@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <footer className="w-full bg-transparent">
+      <footer className="w-full animated-background bg-gradient-to-r from-blue-700 via-blue-700 to-indigo-500">
         <div className="mx-auto max-w-7xl px-8 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
             <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
@@ -15,22 +15,22 @@ function Footer() {
             </div>
 
             <div className="lg:mx-auto text-left ">
-              <h4 className="text-md sm:text-lg text-gray-900 font-medium mb-7">
+              <h4 className="text-md sm:text-lg text-white font-semibold mb-7">
                 Information
               </h4>
               <ul className="text-xs sm:text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <a href="/" className="text-gray-600 hover:text-gray-900">
+                  <a href="/" className="text-white hover:text-gray-900">
                     Search More
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-gray-600 hover:text-gray-900">
+                  <a href="/" className=" text-white hover:text-gray-900">
                     Blogs
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-gray-600 hover:text-gray-900">
+                  <a href="/" className=" text-white hover:text-gray-900">
                     Events
                   </a>
                 </li>
@@ -38,61 +38,61 @@ function Footer() {
             </div>
 
             <div className="lg:mx-auto text-left ">
-              <h4 className="text-md sm:text-lg text-gray-900 font-medium mb-7">
+              <h4 className="text-md sm:text-lg text-white font-semibold mb-7">
                 Quick Links
               </h4>
               <ul className="text-xs sm:text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <a href="/" className="text-gray-600 hover:text-gray-900">
+                  <a href="/" className="text-white hover:text-gray-900">
                     Services
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-gray-600 hover:text-gray-900">
+                  <a href="/" className=" text-white hover:text-gray-900">
                     Supports
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-gray-600 hover:text-gray-900">
+                  <a href="/" className=" text-white hover:text-gray-900">
                     Terms & Condition
                   </a>
                 </li>
                 <li>
-                  <a href="/" className=" text-gray-600 hover:text-gray-900">
+                  <a href="/" className=" text-white hover:text-gray-900">
                     Privacy Policy
                   </a>
                 </li>
               </ul>
             </div>
             <div className="lg:mx-auto text-left">
-              <h4 className="text-md sm:text-lg text-gray-900 font-medium mb-7">
+              <h4 className="text-md sm:text-lg text-white font-semibold mb-7">
                 Discover
               </h4>
               <ul className="text-xs sm:text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <a href="/" className="text-gray-600 hover:text-gray-900">
+                  <a href="/" className="text-white hover:text-gray-900">
                     About Penang
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-gray-600 hover:text-gray-900">
+                  <a href="/" className=" text-white hover:text-gray-900">
                     Attractions
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-gray-600 hover:text-gray-900">
+                  <a href="/" className=" text-white hover:text-gray-900">
                     Food
                   </a>
                 </li>
                 <li>
-                  <a href="/" className=" text-gray-600 hover:text-gray-900">
+                  <a href="/" className=" text-white hover:text-gray-900">
                     Accommodation
                   </a>
                 </li>
               </ul>
             </div>
             <div className="lg:mx-auto text-left">
-              <h4 className="text-md sm:text-lg text-gray-900 font-medium mb-7">
+              <h4 className="text-md sm:text-lg text-white font-semibold mb-7">
                 Contact Us
               </h4>
               <ul className="flex flex-col">
@@ -100,17 +100,21 @@ function Footer() {
                   <img
                     src="/public/assets/phone_call.svg"
                     alt=""
-                    className="h-6"
+                    className="h-6 invert"
                   />
-                  <p className="text-gray-600 hover:text-gray-900 ml-2 text-xs sm:text-sm">
+                  <p className="text-white hover:text-gray-900 ml-2 text-xs sm:text-sm">
                     +60 12345678
                   </p>
                 </li>
                 <li className="flex flex-row cursor-pointer mb-4 text-center items-center">
-                  <img src="/public/assets/email.svg" alt="" className="h-6" />
+                  <img
+                    src="/public/assets/email.svg"
+                    alt=""
+                    className="h-6 invert"
+                  />
                   <a
                     href="/"
-                    className="text-gray-600 hover:text-gray-900 ml-2 text-xs md:text-sm"
+                    className="text-white hover:text-gray-900 ml-2 text-xs md:text-sm"
                   >
                     discoverpenang.com
                   </a>
@@ -121,14 +125,14 @@ function Footer() {
 
           <div className="py-7 border-t border-gray-200">
             <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-              <span className="sm:text-sm text-gray-500 text-center text-xs">
+              <span className="sm:text-sm text-white text-center text-xs">
                 ©<a href="/"> CAT-201 Assignment 2</a> 2025, All rights
                 reserved.
               </span>
               <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                 <a
                   href="/"
-                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600"
+                  className="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:bg-gray-200"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -141,17 +145,17 @@ function Footer() {
                       <path
                         id="Vector"
                         d="M11.3214 8.93666L16.4919 3.05566H15.2667L10.7772 8.16205L7.1914 3.05566H3.05566L8.47803 10.7774L3.05566 16.9446H4.28097L9.022 11.552L12.8088 16.9446H16.9446L11.3211 8.93666H11.3214ZM9.64322 10.8455L9.09382 10.0765L4.72246 3.95821H6.60445L10.1322 8.8959L10.6816 9.66481L15.2672 16.083H13.3852L9.64322 10.8458V10.8455Z"
-                        fill="white"
+                        fill="#4f46e5"
                       />
                     </g>
                   </svg>
                 </a>
                 <a
                   href="/"
-                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600"
+                  className="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:bg-gray-200"
                 >
                   <svg
-                    className="w-[1.25rem] h-[1.125rem] text-white"
+                    className="w-[1.25rem] h-[1.125rem] text-indigo-600"
                     viewBox="0 0 15 15"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -164,10 +168,10 @@ function Footer() {
                 </a>
                 <a
                   href="/"
-                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600"
+                  className="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:bg-gray-200"
                 >
                   <svg
-                    className="w-[1rem] h-[1rem] text-white"
+                    className="w-[1rem] h-[1rem] text-indigo-600"
                     viewBox="0 0 13 12"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -180,10 +184,10 @@ function Footer() {
                 </a>
                 <a
                   href="/"
-                  className="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600"
+                  className="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:bg-gray-200"
                 >
                   <svg
-                    className="w-[1.25rem] h-[0.875rem] text-white"
+                    className="w-[1.25rem] h-[0.875rem] text-indigo-600"
                     viewBox="0 0 16 12"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
