@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-family: "Nunito", sans-serif;
 
   background-color: #eaeff8;
@@ -14,6 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Dropdown animation */
 @keyframes slideDownAnimation {
   0% {
     opacity: 0;
@@ -27,4 +29,40 @@
 
 .dropdown-item {
   animation: slideDownAnimation 300ms ease-in-out forwards;
+}
+
+/* Element slide left */
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slideLeft-element {
+  animation: slideLeft 500ms ease-in-out forwards;
+}
+
+/* Background animation */
+.animated-background {
+  background-size: 400%;
+
+  -webkit-animation: animation 5s ease infinite;
+  -moz-animation: animation 5s ease infinite;
+  animation: animation 5s ease infinite;
+}
+
+@keyframes animation {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
 }
