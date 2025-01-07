@@ -1,79 +1,151 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-type ListItemProps = {
-  children: React.ReactNode;
-  NavLink: string;
-};
-
-const ListItem: React.FC<ListItemProps> = ({ children, NavLink }) => {
-  return (
-    <li>
-      <a
-        href={NavLink}
-        className="flex ml-4 px-2 py-2 text-base font-semibold justify-start text-body-color hover:text-dark dark:text-dark-6 dark:hover:text-white lg:ml-6 lg:inline-flex"
-      >
-        {children}
-      </a>
-    </li>
-  );
-};
-
-const Navbar: React.FC = () => {
-  const [open, setOpen] = useState(false);
+function NavBar() {
+  // State to manage the visibility of the mobile menu
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header
-      className={`flex w-full items-center bg-[#242424] dark:bg-dark justify-center`}
-    >
-      <div className="container">
-        <div className="relative mx-4 my-2 flex items-center justify-between">
-          <div className="w-60 max-w-full px-4">
-            <a href="/#" className="block w-full py-5">
-              <img
-                src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-primary.svg"
-                alt="logo"
-                className="dark:hidden"
-              />
-              <img
-                src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
-                alt="logo"
-                className="hidden dark:block"
-              />
-            </a>
-          </div>
-          <div className="flex w-full items-center justify-end px-4">
-            <div>
+    <>
+      <nav>
+        <div className="mx-auto px-2 sm:px-10 lg:px-20 bg-gray-800">
+          <div className="relative flex h-16 items-center justify-between">
+            {/* Mobile menu dropdown button */}
+            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
-                onClick={() => setOpen(!open)}
-                id="navbarToggler"
-                className={` ${
-                  open && "navbarTogglerActive"
-                } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
+                type="button"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                aria-expanded={isMenuOpen}
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
+                <span className="sr-only">Open main menu</span>
+                {isMenuOpen ? (
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                    />
+                  </svg>
+                )}
               </button>
-              <nav
-                id="navbarCollapse"
-                className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-black bg-opacity-80 px-2 py-5 shadow-2xl dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none lg:dark:bg-transparent ${
-                  !open && "hidden"
-                } lg:bg-transparent`}
-              >
-                <ul className="block lg:flex">
-                  <ListItem NavLink="/#">ABOUT</ListItem>
-                  <ListItem NavLink="/#">FOOD</ListItem>
-                  <ListItem NavLink="/#">ATTRACTIONS</ListItem>
-                  <ListItem NavLink="/#">ACCOMMODATIONS</ListItem>
-                  <ListItem NavLink="/#">CONTACT US</ListItem>
-                </ul>
-              </nav>
+            </div>
+            <div className="flex-1 flex items-center justify-center sm:items-center sm:justify-between">
+              <div className="flex-shrink-0 flex items-center">
+                <img
+                  className="block lg:hidden h-10 w-auto"
+                  src="/src/assets/react.svg"
+                  alt="Workflow"
+                />
+                <img
+                  className="hidden lg:block h-10 w-auto"
+                  src="/src/assets/react.svg"
+                  alt="Workflow"
+                />
+              </div>
+              {/* Desktop view */}
+              <div className="hidden sm:ml-6 sm:block">
+                <div className="flex space-x-4">
+                  <a
+                    href="/"
+                    className=" text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-semibold"
+                    aria-current="page"
+                  >
+                    About
+                  </a>
+                  <a
+                    href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-semibold"
+                  >
+                    Attractions
+                  </a>
+                  <a
+                    href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-semibold"
+                  >
+                    Food
+                  </a>
+                  <a
+                    href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-semibold"
+                  >
+                    Accommodations
+                  </a>
+                  <a
+                    href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-semibold"
+                  >
+                    Contact Us
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-  );
-};
 
-export default Navbar;
+        {/* Mobile and tablet view */}
+        {isMenuOpen && (
+          <div
+            className={`sm:hidden ${
+              isMenuOpen ? "block" : "hidden"
+            } dropdown-item w-7/12 mx-2 bg-gray-800 rounded-2xl`}
+          >
+            <div className="mt-3 px-4 pt-2 pb-3 space-y-1">
+              <a
+                href="#"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >
+                About
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >
+                Attractions
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >
+                Food
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >
+                Accommodations
+              </a>
+              <a
+                href="#"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >
+                Contact Us
+              </a>
+            </div>
+          </div>
+        )}
+      </nav>
+    </>
+  );
+}
+
+export default NavBar;
