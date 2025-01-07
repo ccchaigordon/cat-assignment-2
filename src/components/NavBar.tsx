@@ -67,32 +67,32 @@ function NavBar() {
                 <div className="flex space-x-4">
                   <a
                     href="/"
-                    className=" text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
+                    className=" text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
                     aria-current="page"
                   >
                     About
                   </a>
                   <a
                     href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
+                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
                   >
                     Attractions
                   </a>
                   <a
                     href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
+                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
                   >
                     Food
                   </a>
                   <a
                     href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
+                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
                   >
                     Accommodations
                   </a>
                   <a
                     href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
+                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
                   >
                     Contact Us
                   </a>
@@ -112,31 +112,31 @@ function NavBar() {
             <div className="mt-3 px-4 pb-3 space-y-1">
               <a
                 href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-800 hover:text-white"
               >
                 About
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-800 hover:text-white"
               >
                 Attractions
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-800 hover:text-white"
               >
                 Food
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-800 hover:text-white"
               >
                 Accommodations
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-800 hover:text-white"
               >
                 Contact Us
               </a>
