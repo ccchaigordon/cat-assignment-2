@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <>
       <nav className="sticky top-0 z-50">
-        <div className="mx-auto px-2 sm:px-4 lg:px-20 bg-gray-800">
+        <div className="mx-auto px-2 sm:px-4 lg:px-20 bg-blue-700">
           <div className="relative flex h-20 items-center justify-between">
             {/* Mobile menu dropdown button */}
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
