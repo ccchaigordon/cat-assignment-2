@@ -7,7 +7,7 @@ function Footer() {
             <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
               <a href="/" className="flex justify-center lg:justify-start">
                 <img
-                  src="/src/assets/penang_logo_gold.svg"
+                  src="/public/assets/penang_logo_gold.svg"
                   alt=""
                   className="h-20"
                 />
