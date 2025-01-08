@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Attractions from "./components/Attractions";
+import "./App.css";
 
 function App() {
   return (
