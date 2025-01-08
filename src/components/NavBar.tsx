@@ -13,7 +13,7 @@ function NavBar() {
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
                 type="button"
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-expanded={isMenuOpen}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
@@ -107,36 +107,36 @@ function NavBar() {
           <div
             className={`sm:hidden ${
               isMenuOpen ? "block" : "hidden"
-            } dropdown-item absolute inset-x-0 top-full mt-2 px-2 shadow-lg sm:hidden w-7/12 mx-2 bg-gray-800 rounded-2xl`}
+            } dropdown-item absolute inset-x-0 top-full mt-2 px-2 shadow-lg sm:hidden w-64 mx-2 bg-blue-800 rounded-2xl`}
           >
             <div className="mt-3 px-4 pb-3 space-y-1">
               <a
                 href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-800 hover:text-white"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white"
               >
                 About
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-800 hover:text-white"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white"
               >
                 Attractions
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-800 hover:text-white"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white"
               >
                 Food
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-800 hover:text-white"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white"
               >
                 Accommodations
               </a>
               <a
                 href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-800 hover:text-white"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white"
               >
                 Contact Us
               </a>
