@@ -1,13 +1,12 @@
 import { useState } from "react";
 
 function NavBar() {
-  // State to manage the visibility of the mobile menu
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <>
       <nav className="sticky top-0 z-50">
-        <div className="mx-auto px-2 sm:px-4 lg:px-20 bg-blue-700">
+        <div className="mx-auto px-2 sm:px-4 lg:px-20 bg-blue-700 opacity-95">
           <div className="relative flex h-20 items-center justify-between">
             {/* Mobile menu dropdown button */}
             <div className="absolute m-6 inset-y-0 left-0 flex items-center sm:hidden">
@@ -62,6 +61,7 @@ function NavBar() {
                   alt="Workflow"
                 />
               </div>
+
               {/* Desktop view */}
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-2">
