@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "image": "/attractions/bukit_batu_kawan_03.JPG",
+        "title": "Eastern & Oriental Hotel",
+        "category": "Luxury Stays; Boutique Hotels",
+        "location": "Pulau Pinang",
+        "ratings": 5
+    },
+    {
+        "id": 2,
+        "image": "/attractions/esplanade_penang.JPG",
+        "title": "Macalister Mansion",
+        "category": "Luxury Stays; Budget Stays",
+        "location": "Pulau Pinang",
+        "ratings": 4.7
+    },
+    {
+        "id": 3,
+        "image": "/attractions/esplanade_penang.JPG",
+        "title": "Ascott Gurney Penang",
+        "category": "Luxury Stays; Boutique Hotels; Family Hotels",
+        "location": "Pulau Pinang",
+        "ratings": 4.5
+    },
+    {
+        "id": 4,
+        "image": "/attractions/esplanade_penang.JPG",
+        "title": "Esplanade Penang",
+        "category": "Beach Resorts",
+        "location": "Pulau Pinang",
+        "ratings": 5
+    }
+]
