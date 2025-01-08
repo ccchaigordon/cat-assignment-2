@@ -28,7 +28,7 @@ function Attractions() {
           id="filled"
           className="absolute z-0 w-11/12 ml-8 mt-8 md:w-9/12 h-[20vw] left-0 bg-[#1c42ca] rounded-[0px_222px_222px_0px]"
         />
-        <div className="flex flex-col h-40 md:h-60 w-5/6 pt-[6vw] mx-auto ">
+        <div className="flex flex-col h-[30vw] md:h-60 w-5/6 pt-[6vw] mx-auto ">
           <p
             id="element-text"
             className="z-50 [font-family:'Poppins-Regular',Helvetica] font-normal text-black text-[2.5vw] md:text-[1.5vw] text-justify tracking-[0] leading-[normal]"
