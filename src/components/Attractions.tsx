@@ -18,7 +18,7 @@ function Attractions() {
       {/* Title Part */}
       <div
         id="slideLeft-element"
-        className="slideLeft-element mt-20 mb-8 xs:mb-0 relative"
+        className="slideLeft-element mt-36 mb-8 xs:mb-0 relative"
       >
         <div
           id="unfilled"
