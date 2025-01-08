@@ -10,7 +10,7 @@ function NavBar() {
         <div className="mx-auto px-2 sm:px-4 lg:px-20 bg-blue-700">
           <div className="relative flex h-20 items-center justify-between">
             {/* Mobile menu dropdown button */}
-            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <div className="absolute m-6 inset-y-0 left-0 flex items-center sm:hidden">
               <button
                 type="button"
                 className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -107,7 +107,7 @@ function NavBar() {
           <div
             className={`sm:hidden ${
               isMenuOpen ? "block" : "hidden"
-            } dropdown-item absolute inset-x-0 top-full mt-2 px-2 shadow-lg sm:hidden w-64 mx-2 bg-blue-800 rounded-2xl`}
+            } dropdown-item absolute inset-x-0 top-full mt-6 px-2 shadow-lg sm:hidden w-64 mx-8 bg-blue-800 rounded-2xl`}
           >
             <div className="mt-3 px-4 pb-3 space-y-1">
               <a
