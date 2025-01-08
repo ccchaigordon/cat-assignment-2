@@ -7,7 +7,7 @@ function Footer() {
             <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
               <a href="/" className="flex justify-center lg:justify-start">
                 <img
-                  src="/public/assets/penang_logo_gold.svg"
+                  src="/assets/penang_logo_gold.svg"
                   alt=""
                   className="h-20"
                 />
@@ -98,7 +98,7 @@ function Footer() {
               <ul className="flex flex-col">
                 <li className="flex flex-row cursor-pointer mb-4 text-center items-center">
                   <img
-                    src="/public/assets/phone_call.svg"
+                    src="/assets/phone_call.svg"
                     alt=""
                     className="h-6 invert"
                   />
@@ -107,11 +107,7 @@ function Footer() {
                   </p>
                 </li>
                 <li className="flex flex-row cursor-pointer mb-4 text-center items-center">
-                  <img
-                    src="/public/assets/email.svg"
-                    alt=""
-                    className="h-6 invert"
-                  />
+                  <img src="/assets/email.svg" alt="" className="h-6 invert" />
                   <a
                     href="/"
                     className="text-white hover:text-gray-900 ml-2 text-xs md:text-sm"
