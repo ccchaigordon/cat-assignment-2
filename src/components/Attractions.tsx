@@ -22,13 +22,13 @@ function Attractions() {
       >
         <div
           id="unfilled"
-          className="absolute z-10 w-5/6 md:w-4/6 h-[20vw] left-0 bg-[#eaeff8] rounded-[0px_222px_222px_0px] border-[2px] sm:border-[3px] border-l-0 sm:border-l-0 border-solid border-[#1c42ca]"
+          className="absolute z-10 w-11/12 md:w-9/12 h-[20vw] left-0 bg-[#eaeff8] rounded-[0px_222px_222px_0px] border-[2px] sm:border-[3px] border-l-0 sm:border-l-0 border-solid border-[#1c42ca]"
         />
         <div
           id="filled"
-          className="absolute z-0 w-5/6 ml-8 mt-8 md:w-4/6 h-[20vw] left-0 bg-[#1c42ca] rounded-[0px_222px_222px_0px]"
+          className="absolute z-0 w-11/12 ml-8 mt-8 md:w-9/12 h-[20vw] left-0 bg-[#1c42ca] rounded-[0px_222px_222px_0px]"
         />
-        <div className="flex flex-col h-40 md:h-60 w-full pt-[6vw] pl-[5vw] md:pl-[4vw]">
+        <div className="flex flex-col h-40 md:h-60 w-5/6 pt-[6vw] mx-auto ">
           <p
             id="element-text"
             className="z-50 [font-family:'Poppins-Regular',Helvetica] font-normal text-black text-[2.5vw] md:text-[1.5vw] text-justify tracking-[0] leading-[normal]"
