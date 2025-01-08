@@ -64,7 +64,7 @@ function NavBar() {
               </div>
               {/* Desktop view */}
               <div className="hidden sm:ml-6 sm:block">
-                <div className="flex space-x-4">
+                <div className="flex space-x-2">
                   <a
                     href="/"
                     className=" text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
