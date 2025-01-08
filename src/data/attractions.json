@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "image": "/attractions/bukit_batu_kawan_03.JPG",
+      "title": "Bukit Batu Kawan",
+      "description": "Experience this 4.2-km out-and-back trail near Simpang Ampat, Penang. Generally considered a moderately challenging route, it takes an average of 1 h 27 min to complete. This is a very popular area for hiking, mountain biking, and running, so you'll likely encounter other people while exploring.",
+      "author": "Roel Aufderehar",
+      "authorImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "readTime": "6 min read"
+    },
+    {
+      "id": 2,
+      "image": "/attractions/esplanade_penang.JPG",
+      "title": "Esplanade Penang",
+      "description": "George Town's Esplanade, also known as Padang Kota Lama, is a large open space in the heritage zone of the city. The Esplanade marks the spot where the city's founder, Sir Francis Light, first landed in Penang to claim the island for the British Empire taking control of the island from the Sultanate of Kedah.",
+      "author": "Brenna Goyette",
+      "authorImage": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "readTime": "4 min read"
+    },
+    {
+      "id": 2,
+      "image": "/attractions/esplanade_penang.JPG",
+      "title": "Esplanade Penang",
+      "description": "George Town's Esplanade, also known as Padang Kota Lama, is a large open space in the heritage zone of the city. The Esplanade marks the spot where the city's founder, Sir Francis Light, first landed in Penang to claim the island for the British Empire taking control of the island from the Sultanate of Kedah.",
+      "author": "Brenna Goyette",
+      "authorImage": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "readTime": "4 min read"
+    },
+    {
+      "id": 2,
+      "image": "/attractions/esplanade_penang.JPG",
+      "title": "Esplanade Penang",
+      "description": "George Town's Esplanade, also known as Padang Kota Lama, is a large open space in the heritage zone of the city. The Esplanade marks the spot where the city's founder, Sir Francis Light, first landed in Penang to claim the island for the British Empire taking control of the island from the Sultanate of Kedah.",
+      "author": "Brenna Goyette",
+      "authorImage": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "readTime": "4 min read"
+    },
+    {
+      "id": 2,
+      "image": "/attractions/esplanade_penang.JPG",
+      "title": "Esplanade Penang",
+      "description": "George Town's Esplanade, also known as Padang Kota Lama, is a large open space in the heritage zone of the city. The Esplanade marks the spot where the city's founder, Sir Francis Light, first landed in Penang to claim the island for the British Empire taking control of the island from the Sultanate of Kedah.",
+      "author": "Brenna Goyette",
+      "authorImage": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "readTime": "4 min read"
+    }
+  ]
+  
