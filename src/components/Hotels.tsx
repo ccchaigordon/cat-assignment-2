@@ -106,37 +106,26 @@ function Hotels() {
         <p className="[font-family:'Poppins', Helvetica] font-bold text-black text-[6vw] md:text-[4vw] text-center tracking-[0] leading-[normal]">
           Stay Your Way in Penang
         </p>
-        <p className="[font-family:'Poppins',Helvetica] font-normal text-black text-[3vw] sm:text-lg lg:text-xl text-center tracking-[0] leading-[normal] mt-8">
+        <p className="[font-family:'Poppins', Helvetica] font-normal text-black text-[3vw] sm:text-lg lg:text-xl text-center tracking-[0] leading-[normal] mt-8">
           Explore a wide range of hotels, from luxurious resorts to
           budget-friendly stays, each offering you and your loved ones a unique
           Penang experience.
         </p>
-        <div className="flex justify-center items-center mt-4 mb-2">
-          <div className="relative inline-block lg:hidden">
-            <button className="p-2" onClick={toggleDropdown}>
-              <svg
-                className="h-8 w-8"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16m-7 6h7"
-                />
-              </svg>
+        <div className="flex lg:hidden justify-center items-center mt-4 mb-2">
+          <div className="relative inline-block">
+            <button
+              className="bg-secondary border-secondary rounded-full inline-flex items-center justify-center mx-4 py-2 px-7 text-center text-sm font-bold text-black border-2 border-black cursor-pointer"
+              onClick={toggleDropdown}
+            >
+              Filter: {selectedCategory ? selectedCategory : "none"}
             </button>
-
             {isDropdownOpen && (
-              <div className="dropdown-item absolute top-full left-0 mt-1 w-48 bg-white shadow-md rounded-lg z-10">
+              <div className="z-20 absolute left-1/2 transform -translate-x-1/2 mt-2 w-48 bg-white shadow-md rounded-lg">
                 {categories.map((category, index) => (
                   <button
                     key={index}
-                    className={`block w-full px-4 py-3 text-sm font-medium text-left ${
-                      selectedCategory === category ? "bg-gray-300" : ""
+                    className={`block w-full px-4 py-3 text-sm font-medium text-left${
+                      selectedCategory === category ? " bg-gray-300" : ""
                     }`}
                     onClick={() => handleCategorySelect(category)}
                   >
@@ -145,10 +134,6 @@ function Hotels() {
                 ))}
               </div>
             )}
-          </div>
-
-          <div className="lg:hidden bg-secondary border-secondary rounded-full inline-flex items-center justify-center mx-4 py-2 px-7 text-center text-sm font-bold text-black border-2 border-black cursor-default">
-            Filter: {selectedCategory ? selectedCategory : "none"}
           </div>
         </div>
       </div>
@@ -159,6 +144,7 @@ function Hotels() {
         className={`relative bg-transparent px-6 pb-20 pt-[2vw] lg:px-8 lg:pb-28" ${
           animate ? "fadeInUpContent" : "opacity-0"
         }`}
+        style={{ zIndex: isDropdownOpen ? -1 : 0 }}
       >
         <div className="relative mx-auto max-w-7xl">
           <div className="hidden lg:flex justify-center space-x-4 mb-12">
@@ -203,9 +189,9 @@ function Hotels() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="#FFFFFF"
-                    stroke-width="1"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="ml-8 z-20"
                   >
                     <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z" />
