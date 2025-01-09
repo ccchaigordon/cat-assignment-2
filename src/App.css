@@ -45,6 +45,38 @@ body {
   animation: slideLeft 500ms ease-in-out forwards;
 }
 
+/* For ease-in animation */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUpTitle,
+.fadeInUpContent {
+  opacity: 0;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+/* Title ease-in animation */
+.fadeInUpTitle {
+  visibility: visible;
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0s;
+}
+
+/* Content ease-in animation */
+.fadeInUpContent {
+  visibility: visible;
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
 /* Background animation */
 .animated-background {
   background-size: 400%;

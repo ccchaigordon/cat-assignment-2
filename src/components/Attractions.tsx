@@ -1,9 +1,10 @@
-import { useState } from "react";
-
+import { useState, useEffect, useRef } from "react";
 import attractions from "../data/attractions.json";
 
 function Attractions() {
   const [visible, setVisible] = useState(3);
+  const [animate, setAnimate] = useState(false);
+  const sectionRef = useRef<HTMLDivElement>(null);
 
   const showMore = () => {
     setVisible((prevVisible) => prevVisible + 3);
@@ -13,12 +14,37 @@ function Attractions() {
     setVisible((prevVisible) => (prevVisible > 3 ? prevVisible - 3 : 3));
   };
 
+  // For animation
+  useEffect(() => {
+    const currentSection = sectionRef.current;
+    if (currentSection) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          const [entry] = entries;
+          if (entry.isIntersecting) {
+            setAnimate(true);
+          }
+        },
+        { threshold: 0.1 }
+      );
+
+      observer.observe(currentSection);
+
+      return () => {
+        observer.unobserve(currentSection);
+      };
+    }
+  }, []);
+
   return (
     <>
       {/* Title Part */}
       <div
+        ref={sectionRef}
         id="slideLeft-element"
-        className="slideLeft-element mt-36 mb-8 xs:mb-0 relative"
+        className={`slideLeft-element mt-36 mb-8 xs:mb-0 relative $${
+          animate ? "fadeInUpTitle" : "opacity-0"
+        }`}
       >
         <div
           id="unfilled"
@@ -45,7 +71,12 @@ function Attractions() {
       </div>
 
       {/* Card Part */}
-      <div className="relative bg-transparent px-6 pb-20 pt-[4vw] xl:pt-[10vw] lg:px-8 lg:pb-28">
+      <div
+        ref={sectionRef}
+        className={`relative bg-transparent px-6 pb-20 pt-[4vw] xl:pt-[10vw] lg:px-8 lg:pb-28 ${
+          animate ? "fadeInUpContent" : "opacity-0"
+        }`}
+      >
         <div className="relative mx-auto max-w-7xl">
           <div className="mx-auto mt-0 grid max-w-lg gap-8 lg:max-w-none lg:grid-cols-3">
             {attractions.slice(0, visible).map((attraction) => (
