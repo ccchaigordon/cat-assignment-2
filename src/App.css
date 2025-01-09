@@ -9,6 +9,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  min-width: 280px;
+}
+
 /* Dropdown animation */
 @keyframes slideDownAnimation {
   0% {
