@@ -170,17 +170,20 @@ function Hotels() {
             {filteredHotels.slice(0, visible).map((hotel) => (
               <article
                 key={hotel.id}
-                className="relative isolate flex flex-col justify-end h-72 overflow-hidden rounded-3xl shadow-xl hover:scale-[1.025] duration-200 ease-in-out cursor-pointer"
+                className="relative isolate flex flex-col justify-end h-72 overflow-hidden rounded-3xl shadow-xl cursor-pointer group"
               >
                 <img
                   src={hotel.image}
                   alt={hotel.title}
-                  className="absolute inset-0 h-full w-full object-cover"
+                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
                 />
+
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-900/40"></div>
+
                 <h3 className="ml-8 mb-4 z-10 text-[4vw] sm:text-2xl lg:text-xl font-semibold text-white">
                   {hotel.title}
                 </h3>
+
                 <div className="flex flex-row mb-3 items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
