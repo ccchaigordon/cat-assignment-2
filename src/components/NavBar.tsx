@@ -107,7 +107,7 @@ function NavBar() {
           <div
             className={`sm:hidden ${
               isMenuOpen ? "block" : "hidden"
-            } dropdown-item absolute inset-x-0 top-full mt-6 px-2 shadow-lg sm:hidden w-64 mx-8 bg-blue-800 rounded-2xl`}
+            } dropdown-item absolute inset-x-0 top-full mt-6 px-2 shadow-lg sm:hidden w-48 xs:w-64 mx-8 bg-blue-800 rounded-2xl`}
           >
             <div className="mt-3 px-4 pb-3 space-y-1">
               <a
