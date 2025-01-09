@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/attractions/bukit_batu_kawan_03.JPG",
+        "image": "/hotels/eastern_and_oriental.jpg",
         "title": "Eastern & Oriental Hotel",
         "category": "Luxury Stays; Boutique Hotels",
         "location": "Lebuh Farquhar, George Town",
@@ -9,26 +9,66 @@
     },
     {
         "id": 2,
-        "image": "/attractions/esplanade_penang.JPG",
-        "title": "Macalister Mansion",
+        "image": "/hotels/angsana_teluk_bahang.jpeg",
+        "title": "Angsana Teluk Bahang",
         "category": "Luxury Stays; Budget Stays",
-        "location": "Pulau Pinang",
+        "location": "Teluk Bahang, Penang",
         "ratings": 4.7
     },
     {
         "id": 3,
-        "image": "/attractions/esplanade_penang.JPG",
-        "title": "Ascott Gurney Penang",
+        "image": "/hotels/g_hotel.jpeg",
+        "title": "G Hotel Gurney",
         "category": "Luxury Stays; Boutique Hotels; Family Hotels",
-        "location": "Pulau Pinang",
+        "location": "Persiaran Gurney, George Town",
         "ratings": 4.5
     },
     {
         "id": 4,
-        "image": "/attractions/esplanade_penang.JPG",
-        "title": "Esplanade Penang",
+        "image": "/hotels/lyf_georgetown.jpg",
+        "title": "Lyf Georgetown",
         "category": "Beach Resorts",
-        "location": "Pulau Pinang",
+        "location": "George Town, Penang",
+        "ratings": 5
+    },
+    {
+        "id": 5,
+        "image": "/hotels/marriott.jpg",
+        "title": "Penang Marriott Hotel",
+        "category": "Beach Resorts",
+        "location": "Persiaran Gurney, George Town",
+        "ratings": 5
+    },
+    {
+        "id": 6,
+        "image": "/hotels/seven_terraces.jpg",
+        "title": "Seven Terraces",
+        "category": "Beach Resorts",
+        "location": "Stewart Ln, George Town",
+        "ratings": 5
+    },
+    {
+        "id": 7,
+        "image": "/hotels/shangrila.jpg",
+        "title": "Shangri-La Rasa Sayang",
+        "category": "Beach Resorts",
+        "location": "Batu Ferringhi, Penang",
+        "ratings": 5
+    },
+    {
+        "id": 8,
+        "image": "/hotels/edison.jpg",
+        "title": "The Edison George Town",
+        "category": "Beach Resorts",
+        "location": "Lebuh Leith, George Town",
+        "ratings": 5
+    },
+    {
+        "id": 9,
+        "image": "/hotels/88_armenian.jpg",
+        "title": "88 Armenian",
+        "category": "Beach Resorts",
+        "location": "Lebuh Armenian, George Town",
         "ratings": 5
     }
 ]
