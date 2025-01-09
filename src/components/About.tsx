@@ -59,43 +59,49 @@ function About() {
                   here make it like a small paragraph)
                 </p>
               </div>
-              <div className="flex flex-row mt-12 lg:mt-16 justify-center lg:justify-start items-center">
-                <p className="text-[#1C42CA] text-xl sm:text-4xl font-semibold">
-                  1.74 million
-                </p>
-                <div className="ml-3 sm:ml-4">
-                  <p className="text-md sm:text-xl">people living in harmony</p>
-                </div>
-              </div>
-
-              <div className="flex flex-row mt-6 lg:mt-10 justify-center lg:justify-start items-center">
-                <p className="text-[#1C42CA] text-2xl sm:text-4xl font-semibold">
-                  200+
-                </p>
-                <div className="ml-6 sm:ml-4">
-                  <p className="text-md sm:text-xl">
-                    years as a UNESCO World Heritage Site
+              <div className="flex flex-col gap-6 lg:gap-10 mt-12 lg:mt-16 mx-auto lg:mx-0">
+                <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start">
+                  <p className="text-[#1C42CA] text-2xl sm:text-4xl font-semibold text-center lg:text-right">
+                    1.74 million
                   </p>
+                  <div className="mt-1 sm:mt-0 sm:ml-4">
+                    <p className="text-md sm:text-xl text-left">
+                      people living in harmony
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="flex flex-row mt-6 lg:mt-10 justify-center lg:justify-start items-center">
-                <p className="text-[#1C42CA] text-2xl sm:text-4xl font-semibold">
-                  100+
-                </p>
-                <div className="ml-6 sm:ml-4">
-                  <p className="text-md sm:text-xl">
-                    street food earning the title of Food Heaven
+                <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start">
+                  <p className="text-[#1C42CA] text-2xl sm:text-4xl font-semibold text-center lg:text-right">
+                    200+
                   </p>
+                  <div className="mt-1 sm:mt-0 sm:ml-4">
+                    <p className="text-md sm:text-xl text-left">
+                      years as a UNESCO World Heritage Site
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="flex flex-row mt-6 lg:mt-10 justify-center lg:justify-start items-center">
-                <p className="text-[#1C42CA] text-2xl sm:text-4xl font-semibold">
-                  70+
-                </p>
-                <div className="ml-8 xs:ml-4">
-                  <p className="text-md sm:text-xl">tourist attractions</p>
+                <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start">
+                  <p className="text-[#1C42CA] text-2xl sm:text-4xl font-semibold text-left md:text-right">
+                    100+
+                  </p>
+                  <div className="mt-1 sm:mt-0 sm:ml-4">
+                    <p className="text-md sm:text-xl text-left">
+                      street food earning the title of Food Heaven
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start">
+                  <p className="text-[#1C42CA] text-2xl sm:text-4xl font-semibold text-left md:text-right">
+                    70+
+                  </p>
+                  <div className="mt-1 sm:mt-0 sm:ml-4">
+                    <p className="text-md sm:text-xl text-left">
+                      tourist attractions
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
