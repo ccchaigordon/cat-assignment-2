@@ -4,45 +4,56 @@
       "image": "/attractions/bukit_batu_kawan_03.JPG",
       "title": "Bukit Batu Kawan",
       "description": "Experience this 4.2-km out-and-back trail near Simpang Ampat, Penang. Generally considered a moderately challenging route, it takes an average of 1 h 27 min to complete. This is a very popular area for hiking, mountain biking, and running, so you'll likely encounter other people while exploring.",
-      "author": "Roel Aufderehar",
-      "authorImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      "readTime": "6 min read"
+      "icon": "/assets/car.svg",
+      "distance": "39 min"
     },
     {
       "id": 2,
       "image": "/attractions/esplanade_penang.JPG",
       "title": "Esplanade Penang",
       "description": "George Town's Esplanade, also known as Padang Kota Lama, is a large open space in the heritage zone of the city. The Esplanade marks the spot where the city's founder, Sir Francis Light, first landed in Penang to claim the island for the British Empire taking control of the island from the Sultanate of Kedah.",
-      "author": "Brenna Goyette",
-      "authorImage": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      "readTime": "4 min read"
+      "icon": "/assets/car.svg",
+      "distance": "9 min"
     },
     {
-      "id": 2,
-      "image": "/attractions/esplanade_penang.JPG",
-      "title": "Esplanade Penang",
-      "description": "George Town's Esplanade, also known as Padang Kota Lama, is a large open space in the heritage zone of the city. The Esplanade marks the spot where the city's founder, Sir Francis Light, first landed in Penang to claim the island for the British Empire taking control of the island from the Sultanate of Kedah.",
-      "author": "Brenna Goyette",
-      "authorImage": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      "readTime": "4 min read"
+      "id": 3,
+      "image": "/attractions/central_fire_station.JPG",
+      "title": "Central Fire Station",
+      "description": "The Central Fire Station at the junction between Beach Street and Chulia Street Ghaut, within George Town's UNESCO World Heritage Site, serves as the main fire station in the city centre. The building features a mix of different architectural styles; its Classical-style façade merges with its Mughal-styled four storey tower with hints of Edwardian influences.",
+      "icon": "/assets/walking.svg",
+      "distance": "20 min"
     },
     {
-      "id": 2,
-      "image": "/attractions/esplanade_penang.JPG",
-      "title": "Esplanade Penang",
-      "description": "George Town's Esplanade, also known as Padang Kota Lama, is a large open space in the heritage zone of the city. The Esplanade marks the spot where the city's founder, Sir Francis Light, first landed in Penang to claim the island for the British Empire taking control of the island from the Sultanate of Kedah.",
-      "author": "Brenna Goyette",
-      "authorImage": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      "readTime": "4 min read"
+      "id": 4,
+      "image": "/attractions/kota_bistro.JPG",
+      "title": "Kota Bistro",
+      "description": "Kota Bistro, Malaysia's first Priority Banking café, is housed in a charming light blue building in Penang, offering a cozy blend of banking and dining. It is perhaps the one experience of dining that many would had never experienced before, and they are making it happen right here in the treasure of Penang.",
+      "icon": "/assets/car.svg",
+      "distance": "9 min"
     },
     {
-      "id": 2,
-      "image": "/attractions/esplanade_penang.JPG",
-      "title": "Esplanade Penang",
-      "description": "George Town's Esplanade, also known as Padang Kota Lama, is a large open space in the heritage zone of the city. The Esplanade marks the spot where the city's founder, Sir Francis Light, first landed in Penang to claim the island for the British Empire taking control of the island from the Sultanate of Kedah.",
-      "author": "Brenna Goyette",
-      "authorImage": "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      "readTime": "4 min read"
+      "id": 5,
+      "image": "/attractions/jetty_35.JPG",
+      "title": "Jetty 35",
+      "description": "A vibrant arts space showcasing local crafts, with workshops and events that highlight creativity and culture. The retro ambiance and welcoming proprietors create a sense of comfort that's truly remarkable. There is a variety collection of 80s memorabilia, including cassette tapes and magazines, transports visitors to a bygone era. For those born after the 80s, it's a chance to experience the nostalgia of that time firsthand.",
+      "icon": "/assets/car.svg",
+      "distance": "7 min"
+    },
+    {
+      "id": 6,
+      "image": "/attractions/street_arts.JPG",
+      "title": "Street Arts Georgetown",
+      "description": "A vibrant open-air gallery within the UNESCO World Heritage Site, blending creativity with local heritage. Famous for Ernest Zacharevic's interactive murals like Little Children on a Bicycle, the streets are adorned with captivating artworks and whimsical steel rod sculptures that tell Penang's stories. Perfect for art lovers and explorers, these iconic pieces invite you to immerse yourself in the charm and culture of George Town.",
+      "icon": "/assets/walking.svg",
+      "distance": "18 min"
+    },
+    {
+      "id": 7,
+      "image": "/attractions/batu_ferringhi.JPG",
+      "title": "Batu Ferringhi",
+      "description": "A picturesque beach destination known for its golden sands, vibrant nightlife, and laid-back atmosphere. A heaven for relaxation and adventure, it offers activities like parasailing, jet skiing, and sunset cruises, alongside a bustling night market filled with local crafts and delicious street food. With its stunning ocean views and lively vibe, Batu Ferringhi is perfect for beachgoers and explorers alike.",
+      "icon": "/assets/car.svg",
+      "distance": "38 min"
     }
   ]
   

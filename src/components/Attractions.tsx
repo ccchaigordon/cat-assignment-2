@@ -7,11 +7,11 @@ function Attractions() {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   const showMore = () => {
-    setVisible((prevVisible) => prevVisible + 3);
+    setVisible(attractions.length);
   };
 
   const showLess = () => {
-    setVisible((prevVisible) => (prevVisible > 3 ? prevVisible - 3 : 3));
+    setVisible(3);
   };
 
   // For animation
@@ -105,23 +105,17 @@ function Attractions() {
                   <div className="mt-6 flex items-center">
                     <div className="flex-shrink-0">
                       <a href="#">
-                        <span className="sr-only">{attraction.author}</span>
                         <img
                           className="h-10 w-10 rounded-full"
-                          src={attraction.authorImage}
+                          src={attraction.icon}
                           alt=""
                         />
                       </a>
                     </div>
                     <div className="ml-3">
-                      <p className="text-sm font-medium text-gray-900">
-                        <a href="#" className="hover:underline">
-                          {attraction.author}
-                        </a>
-                      </p>
+                      <p className="text-sm font-medium text-gray-900"></p>
                       <div className="flex space-x-1 text-sm text-gray-500">
-                        <span aria-hidden="true">·</span>
-                        <span>{attraction.readTime}</span>
+                        <span>{attraction.distance} from Georgetown</span>
                       </div>
                     </div>
                   </div>
