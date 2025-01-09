@@ -1,5 +1,7 @@
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Discover from "./components/Discover";
+import About from "./components/About";
 import Attractions from "./components/Attractions";
 import Hotels from "./components/Hotels";
 import "./App.css";
@@ -14,6 +16,8 @@ function App() {
         </div>
         <main className="flex-grow">
           {" "}
+          <Discover />
+          <About />
           <Attractions />
           <Hotels />
         </main>
