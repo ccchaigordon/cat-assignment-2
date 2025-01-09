@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section1 {
+    display: flex; 
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.section1 h1 {
+    font-size: 3rem;
+    font-family: "Epilogue", sans-serif;
+    font-weight: normal;
+    padding: 0rem 4rem 3rem 4rem;
+    color: black;
+}
+
+.tagline {
+    font-size: 1rem;
+    font-family: "Epilogue", sans-serif;
+    color: black;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top:2rem;
+    line-height: 1.6;
+}
+
+.intro {
+    font-size: 0.8em;
+    font-family: "Epilogue", sans-serif;
+    color: black;
+    padding: 1rem 2rem 1rem 2rem;
+    line-height: 1.6;
+}
+
+.button1 {
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: #1c42ca;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: normal;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 3rem;
+    cursor: pointer;
+    
+}
+
+.button1:hover {
+    background-color: #1633a2; /* Change background color on hover */
+}
+
+.aboutPenang {
+    width: 100%;
+    height: 200%;
+}
+
+
+.video {
+    display: flex; 
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 auto;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    background-image: url('/src/assets/Mural In George Town Penang Malaysia Wallpaper By T1000.jpg');
+    background-size: cover;
+    background-position: center;        
+}  
+
+.video h1 {
+    font-size: 5rem;
+}
+
+
+.Penang {
+    display: flex; 
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 auto;
+    width: 100%;
+    height: 200%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.Penang h1 {
+    font-size: 2.1rem;    
+    font-weight: bold;
+    padding: 0rem 4rem 0rem 4rem;
+    margin-top: 4rem;
+    color: black;
+}
+
+.aboutPen {
+    font-size: 0.9em;
+    font-family: "Epilogue", sans-serif;
+    text-align: justify;
+    color: black;
+    padding: 1rem 2.1rem 1rem 2.1rem;
+    line-height: 1.6;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;  /* Fixed width for the image container */
+    height: 400px; /* Fixed height for the image container */
+    position: relative;
+    animation: balloonFloat 3s ease-in-out infinite;
+}
+
+@keyframes balloonFloat {
+    0% {
+      transform: translateY(0); /* Starting position */
+    }
+    50% {
+      transform: translateY(-20px); /* Move up slightly */
+    }
+    100% {
+      transform: translateY(0); /* Return to starting position */
+    }
+}
+
+
+
+
+
+
+.image-frame {
+    border-radius: 80px; /* Rounded corners */
+    background-color: #33deb3; /* Frame background color */
+    width: 48%;           /* Frame width */
+    height: 39vh;         /* Frame height */
+    position: relative;   /* Reference point for absolutely positioned elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-frame img {
+    width: 100%;            /* Ensure the image fits within the frame */
+    height: 100%;           /* Stretch the image to fill the frame */
+    object-fit: cover;      /* Ensure the image covers the frame without distortion */
+    border-radius: 80px;    /* Match the frame's rounded corners */
+    display: block;     /* Remove any inline spacing */
+    object-fit: cover;
+}
+
+
+.circle-frame {
+    position: absolute; /* Allows overlap on the image */
+    border: 3px solid #ffffff; /* Frame border color */
+    border-radius: 50%; /* Makes the frame circular */
+    background-color: rgba(32, 229, 239, 0.2); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.frame1 {
+    width: 80px; /* Frame 1 size */
+    height: 80px;
+    top: -30px; /* Position from the top of the container */
+    left: -40px; /* Position from the left of the container */
+}
+  
+.frame2 {
+    width: 80px; /* Frame 2 size */
+    height: 80px;
+    bottom: -5px; /* Position from the bottom of the container */
+    right: -30px; /* Position from the right of the container */
+}
+
+.stats {
+    font-size: 0.7rem;
+    font-family: "Epilogue", sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.Form {
+    display: flex; 
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Epilogue", sans-serif;
+    background-image: url('/src/assets/Mural In George Town Penang Malaysia Wallpaper By T1000.jpg');
+    background-size: cover;
+    background-position: center;      
+
+} 
+
+.Form h1 {
+    font-size: 2.1rem;    
+    font-weight: bold;
+    padding: 0;
+    color: black;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+
+form div {
+    width: 500px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0; /* Remove gaps between elements */
+}
+
+input, textarea{
+    width: 50%; 
+    padding: 8px;
+    font-size: 16px;
+    text-align: center; 
+    margin: 0; /* Remove margins */
+    
+}
+
+.button2 {
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: #1c42ca;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: normal;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 3rem;
+}
+
+.button2:hover {
+    background-color: #0056b3;
+}
+  
+
+
+@media (min-width: 640px) {
+    .section1 h1 {
+        font-size: 5em;
+        margin-bottom: 5rem;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+
+    .tagline {
+        font-size: 1.2rem;
+        padding: 1.5rem;
+    }
+
+    .intro {
+        font-size: 1rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        text-align: center;
+    }
+
+    .button1 {
+        font-size: 1em;
+        padding: 10px 45px;
+        margin-top: 3rem;
+    }  
+
+    .Penang, .Penang h1, .aboutPen, .image-container, .image-frame, .image-frame img, .circle-frame, .frame1, .frame2, .stats {
+        display: none;
+    }
+
+    .Penang-Container {
+        display: flex; 
+        flex-direction: row;
+        flex-grow: 1;
+        margin: 0 auto;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        width: 53%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 100px;
+    }
+
+    .aboutPen1 {
+        font-size: 0.9em;
+        font-family: "Epilogue", sans-serif;
+        text-align: justify;
+        color: black;
+        padding: 1rem 2.1rem 1rem 2.1rem;
+        line-height: 1.6;
+    }
+
+    .stats1 {               
+        font-size: 0.7rem;
+        font-family: "Epilogue", sans-serif;
+        text-align: justify;
+        line-height: 1.6;
+        margin-top: 1rem;
+        padding: 1rem 2.1rem 1rem 2.1rem;
+    }
+
+    .image-container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;  /* Fixed width for the image container */
+        height: 400px; /* Fixed height for the image container */
+        position: relative;
+        margin-top: 15vh;
+        margin-right: 2rem;
+    }    
+    
+
+    .image-frame1 {
+        border-radius: 120px; /* Rounded corners */
+        background-color: #33deb3; /* Frame background color */
+        width: 192px;           /* Frame width */
+        height: 400px;         /* Frame height */
+        position: relative;   /* Reference point for absolutely positioned elements */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-frame1 img {
+        width: 100%;            /* Ensure the image fits within the frame */
+        height: 100%;           /* Stretch the image to fill the frame */
+        object-fit: cover;      /* Ensure the image covers the frame without distortion */
+        border-radius: 120px;    /* Match the frame's rounded corners */
+        display: block;     /* Remove any inline spacing */
+        object-fit: cover;
+    }
+
+    .circle-frame1 {
+        position: absolute; /* Allows overlap on the image */
+        border: 3px solid #ffffff; /* Frame border color */
+        border-radius: 50%; /* Makes the frame circular */
+        background-color: rgba(32, 229, 239, 0.2); /* Semi-transparent background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle-frame1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+    }
+
+    .frame1_1 {
+        width: 120px; /* Frame 1 size */
+        height: 120px;
+        top: -40px; /* Position from the top of the container */
+        left: 2px; /* Position from the left of the container*/ 
+    }
+
+    .frame1_2 {
+        width: 120px; /* Frame 1 size */
+        height: 120px;
+        top: 300px; /* Position from the top of the container */
+        left: 170px; /* Position from the left of the container*/ 
+    }
+
+    input, textarea {
+        max-width: 100%; 
+        min-width: 100%;    
+        padding: 8px;   
+        font-size: 16px;
+        text-align: center; 
+        margin: 0; /* Remove margins */
+        resize: none; /* Prevent height adjustment */
+    }   
+
+}
