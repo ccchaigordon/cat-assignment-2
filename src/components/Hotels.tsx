@@ -30,11 +30,11 @@ function Hotels() {
   );
 
   const showMore = () => {
-    setVisible((prevVisible) => prevVisible + 3);
+    setVisible(hotels.length);
   };
 
   const showLess = () => {
-    setVisible((prevVisible) => (prevVisible > 3 ? prevVisible - 3 : 3));
+    setVisible(3);
   };
 
   const renderStars = (rating: number) => {
