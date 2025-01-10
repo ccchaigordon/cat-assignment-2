@@ -5,6 +5,7 @@ import About from "./components/About";
 import Attractions from "./components/Attractions";
 import Food from "./components/Food";
 import Hotels from "./components/Hotels";
+import Contact from "./components/Contact";
 import "./App.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Food />
           </div>
           <Hotels />
+          <Contact />
         </main>
         <Footer />
       </div>
