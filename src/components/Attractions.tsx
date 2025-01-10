@@ -42,7 +42,7 @@ function Attractions() {
       <div
         ref={sectionRef}
         id="slideLeft-element"
-        className={`slideLeft-element mt-36 mb-8 xs:mb-0 relative $${
+        className={`slideLeft-element mt-32 mb-8 xs:mb-0 relative $${
           animate ? "fadeInUpTitle" : "opacity-0"
         }`}
       >
