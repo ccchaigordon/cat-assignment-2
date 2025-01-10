@@ -1,7 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
 
   return (
     <>
@@ -49,53 +54,79 @@ function NavBar() {
               </button>
             </div>
             <div className="flex-1 flex items-center justify-center sm:items-center sm:justify-between">
-              <div className="flex-shrink-0 flex items-center">
+              <Link
+                to="hero"
+                spy={true}
+                smooth={true}
+                duration={300}
+                className="flex-shrink-0 flex items-center cursor-pointer"
+              >
                 <img
                   className="block lg:hidden h-10 w-auto"
                   src="/assets/penang_logo.svg"
-                  alt="Workflow"
+                  alt="Logo"
                 />
                 <img
                   className="hidden lg:block h-12 w-auto"
                   src="/assets/penang_logo.svg"
-                  alt="Workflow"
+                  alt="Logo"
                 />
-              </div>
+              </Link>
 
               {/* Desktop view */}
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-2">
-                  <a
-                    href="/"
-                    className=" text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
+                  <Link
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={300}
+                    className=" text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold cursor-pointer"
                     aria-current="page"
                   >
                     About
-                  </a>
-                  <a
-                    href="#"
-                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
+                  </Link>
+                  <Link
+                    to="slideLeft-element"
+                    spy={true}
+                    smooth={true}
+                    offset={-150}
+                    duration={300}
+                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold cursor-pointer"
                   >
                     Attractions
-                  </a>
-                  <a
-                    href="#"
-                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
+                  </Link>
+                  <Link
+                    to="food"
+                    spy={true}
+                    smooth={true}
+                    offset={-150}
+                    duration={300}
+                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold cursor-pointer"
                   >
                     Food
-                  </a>
-                  <a
-                    href="#"
-                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
+                  </Link>
+                  <Link
+                    to="accommodations"
+                    spy={true}
+                    smooth={true}
+                    offset={-150}
+                    duration={300}
+                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold cursor-pointer"
                   >
                     Accommodations
-                  </a>
-                  <a
-                    href="#"
-                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold"
+                  </Link>
+                  <Link
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={300}
+                    className="text-white hover:bg-blue-800 hover:text-white px-2 py-2 lg:px-3 rounded-md text-sm font-semibold cursor-pointer"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -110,36 +141,60 @@ function NavBar() {
             } dropdown-item absolute inset-x-0 top-full mt-6 px-2 shadow-lg sm:hidden w-48 xs:w-64 mx-8 bg-blue-800 rounded-2xl`}
           >
             <div className="mt-3 px-4 pb-3 space-y-1">
-              <a
-                href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white"
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={300}
+                onClick={closeMenu}
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white cursor-pointer"
               >
                 About
-              </a>
-              <a
-                href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white"
+              </Link>
+              <Link
+                to="slideLeft-element"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={300}
+                onClick={closeMenu}
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white cursor-pointer"
               >
                 Attractions
-              </a>
-              <a
-                href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white"
+              </Link>
+              <Link
+                to="food"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={300}
+                onClick={closeMenu}
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white cursor-pointer"
               >
                 Food
-              </a>
-              <a
-                href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white"
+              </Link>
+              <Link
+                to="accommodations"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={300}
+                onClick={closeMenu}
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white cursor-pointer"
               >
                 Accommodations
-              </a>
-              <a
-                href="#"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white"
+              </Link>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={300}
+                onClick={closeMenu}
+                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-blue-900 hover:text-white cursor-pointer"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </div>
         )}

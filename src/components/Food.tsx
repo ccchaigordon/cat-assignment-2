@@ -4,7 +4,10 @@ import carouselItems from "../data/food.json";
 function Food() {
   return (
     <>
-      <div className="flex h-[45vh] sm:h-[70vh] w-full animated-background bg-gradient-to-r from-blue-900 via-blue-900 to-indigo-700 overflow-hidden">
+      <div
+        id="food"
+        className="flex h-[45vh] sm:h-[70vh] w-full animated-background bg-gradient-to-r from-blue-900 via-blue-900 to-indigo-700 overflow-hidden"
+      >
         <div className="flex flex-row w-screen lg:w-10/12 mx-auto justify-center md:justify-between">
           {/* Carousel */}
           <div className="relative w-full max-w-[31.25rem] flex justify-center flex-col">

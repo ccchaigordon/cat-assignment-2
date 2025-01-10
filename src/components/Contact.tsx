@@ -1,7 +1,10 @@
 const Contact = () => {
   return (
     <>
-      <section className="relative z-10 overflow-hidden bg-white mx-auto py-20 lg:py-[120px] justify-center">
+      <section
+        id="contact"
+        className="relative z-10 overflow-hidden bg-white mx-auto py-20 lg:py-[120px] justify-center"
+      >
         <div className="container w-10/12 mx-auto">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">

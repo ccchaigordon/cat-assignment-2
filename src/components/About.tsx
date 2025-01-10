@@ -28,17 +28,7 @@ function About() {
 
   return (
     <>
-      <div>
-        {/* <div className="flex h-56 mt-8 mx-12 xl:w-10/12 2xl:w-4/6 xl:mx-auto justify-center items-center bg-gray-300">
-          <div className="flex flex-row">
-            <div className="[-webkit-text-stroke:3px_#1c42ca] font-bold text-transparent text-9xl">
-              About
-            </div>
-            <div className="ml-12 font-bold text-[#1c42ca] text-9xl">
-              Penang
-            </div>
-          </div>
-        </div> */}
+      <div id="about">
         <div
           ref={sectionRef}
           className={`w-full bg-white py-28 ${

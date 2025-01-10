@@ -98,6 +98,7 @@ function Hotels() {
     <>
       {/* Title Part */}
       <div
+        id="accommodations"
         ref={sectionRef}
         className={`flex flex-col mt-32 mx-12 xl:w-10/12 2xl:w-4/6 xl:mx-auto ${
           animate ? "fadeInUpTitle" : "opacity-0"

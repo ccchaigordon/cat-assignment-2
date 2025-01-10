@@ -1,6 +1,11 @@
+import { Link } from "react-scroll";
+
 function Hero() {
   return (
-    <div className="relative w-full h-screen overflow-hidden flex md:items-center">
+    <div
+      id="hero"
+      className="relative w-full h-screen overflow-hidden flex md:items-center"
+    >
       <video autoPlay muted className="absolute w-screen h-screen object-cover">
         <source src="/assets/hero_vid.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -15,9 +20,11 @@ function Hero() {
           food, and immerse yourself in the vibrant local life. Begin your
           journey with us!
         </p>
-        <button className="hero-slide-up-delay mt-10 bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-xl shadow-md transition duration-300 ease-in-out">
-          Discover More
-        </button>
+        <Link to="about" spy={true} smooth={true} duration={300}>
+          <button className="hero-slide-up-delay mt-10 bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-xl shadow-md transition duration-300 ease-in-out">
+            Discover More
+          </button>
+        </Link>
       </div>
     </div>
   );
