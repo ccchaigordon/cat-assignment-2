@@ -65,7 +65,7 @@ function About() {
                     1.74 million
                   </p>
                   <div className="mt-1 sm:mt-0 sm:ml-4">
-                    <p className="text-md sm:text-xl text-left">
+                    <p className="text-md sm:text-xl text-center">
                       people living in harmony
                     </p>
                   </div>
@@ -76,7 +76,7 @@ function About() {
                     200+
                   </p>
                   <div className="mt-1 sm:mt-0 sm:ml-4">
-                    <p className="text-md sm:text-xl text-left">
+                    <p className="text-md sm:text-xl text-center">
                       years as a UNESCO World Heritage Site
                     </p>
                   </div>
@@ -87,7 +87,7 @@ function About() {
                     100+
                   </p>
                   <div className="mt-1 sm:mt-0 sm:ml-4">
-                    <p className="text-md sm:text-xl text-left">
+                    <p className="text-md sm:text-xl text-center">
                       street food earning the title of Food Heaven
                     </p>
                   </div>
@@ -98,7 +98,7 @@ function About() {
                     70+
                   </p>
                   <div className="mt-1 sm:mt-0 sm:ml-4">
-                    <p className="text-md sm:text-xl text-left">
+                    <p className="text-md sm:text-xl text-center">
                       tourist attractions
                     </p>
                   </div>
