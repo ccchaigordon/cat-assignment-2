@@ -1,11 +1,11 @@
 function Hero() {
   return (
-    <div className="relative w-full h-screen overflow-hidden md:mt-[5rem] flex md:items-center">
+    <div className="relative w-full h-screen overflow-hidden flex md:items-center">
       <video autoPlay muted className="absolute w-screen h-screen object-cover">
         <source src="/assets/hero_vid.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="z-10 w-10/12 mx-auto mt-[30vh] md:mt-0 text-center md:text-left text-white">
+      <div className="z-10 w-10/12 mx-auto mt-[30vh] md:mt-[5rem] text-center md:text-left text-white">
         <h1 className="hero-slide-left text-3xl md:text-7xl font-bold">
           Discover Penang
         </h1>

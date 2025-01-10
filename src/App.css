@@ -36,6 +36,17 @@ body {
   }
 }
 
+@keyframes heroSlideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .hero-slide-left {
   opacity: 0;
   animation: heroSlideLeft 1s ease-out 4s forwards;
@@ -49,6 +60,11 @@ body {
 .hero-slide-up-delay {
   opacity: 0;
   animation: heroSlideUp 1s ease-out 4.5s forwards;
+}
+
+.hero-slide-down {
+  opacity: 0;
+  animation: heroSlideDown 1s ease-out 4.5s forwards;
 }
 
 /* Dropdown animation */
