@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Discover from "./components/Discover";
 import About from "./components/About";
 import Attractions from "./components/Attractions";
+import Food from "./components/Food";
 import Hotels from "./components/Hotels";
 import "./App.css";
 
@@ -19,6 +20,9 @@ function App() {
           <Discover />
           <About />
           <Attractions />
+          <div className="h-[70vh]">
+            <Food />
+          </div>
           <Hotels />
         </main>
         <Footer />
