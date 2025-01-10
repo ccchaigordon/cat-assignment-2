@@ -124,7 +124,7 @@ function Hotels() {
                 {categories.map((category, index) => (
                   <button
                     key={index}
-                    className={`block w-full px-4 py-3 text-sm font-medium text-left${
+                    className={`dropdown-item block w-full px-4 py-3 text-sm font-medium text-left${
                       selectedCategory === category ? " bg-gray-300" : ""
                     }`}
                     onClick={() => handleCategorySelect(category)}
