@@ -20,7 +20,7 @@ function Hero() {
           food, and immerse yourself in the vibrant local life. Begin your
           journey with us!
         </p>
-        <Link to="about" spy={true} smooth={true} duration={300}>
+        <Link to="about" spy={true} smooth={true} offset={-50} duration={300}>
           <button className="hero-slide-up-delay mt-10 bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-8 rounded-xl shadow-md transition duration-300 ease-in-out">
             Discover More
           </button>
