@@ -1,57 +1,47 @@
 [
     {
-      "icon": "🍜",
-      "title": "Green House Hokkien Mee",
-      "desc_short": "Stir-fried noodles with seafood and pork in a savory broth",
-      "path": "/food/penang-hokkien-mee.jpg"
+        "title": "Green House Hokkien Mee",
+        "desc_short": "Stir-fried noodles with seafood and pork in a savory broth",
+        "path": "/food/penang-hokkien-mee.jpg"
     },
     {
-      "icon": "🍜",
-      "title": "Penang Laksa",
-      "desc_short": "Stir-fried noodles with seafood and pork in a savory broth",
-      "path": "/food/penang-hokkien-mee.jpg"
+        "title": "Penang Laksa",
+        "desc_short": "A spicy and tangy noodle soup rich in fish broth and tamarind, topped with fresh herbs.",
+        "path": "/food/penang-laksa.jpg"
     },
     {
-      "icon": "🍜",
-      "title": "White Curry Mee",
-      "desc_short": "Stir-fried noodles with seafood and pork in a savory broth",
-      "path": "/food/penang-hokkien-mee.jpg"
+        "title": "White Curry Mee",
+        "desc_short": "Creamy coconut milk-based curry soup served with noodles, prawns, and tofu puffs.",
+        "path": "/food/penang-white-curry-mee.jpg"
     },
     {
-      "icon": "🍜",
-      "title": "Pancake / Ban Chang Kueh",
-      "desc_short": "Stir-fried noodles with seafood and pork in a savory broth",
-      "path": "/food/penang-hokkien-mee.jpg"
+        "title": "Pancake / Ban Chang Kueh",
+        "desc_short": "Traditional Malaysian pancake filled with sweet corn, peanuts, and sugar.",
+        "path": "/food/penang-ban-chang-kueh.jpg"
     },
     {
-      "icon": "🍜",
-      "title": "Green Curry Mee",
-      "desc_short": "Stir-fried noodles with seafood and pork in a savory broth",
-      "path": "/food/penang-hokkien-mee.jpg"
+        "title": "Green Curry Mee",
+        "desc_short": "Aromatic green curry with noodles, mixed seafood, and vegetables, simmered to perfection.",
+        "path": "/food/penang-green-curry-mee.jpg"
     },
     {
-      "icon": "🍜",
-      "title": "Cendol",
-      "desc_short": "Stir-fried noodles with seafood and pork in a savory broth",
-      "path": "/food/penang-hokkien-mee.jpg"
+        "title": "Cendol",
+        "desc_short": "A refreshing dessert with rice flour jelly, coconut milk, and palm sugar syrup, served chilled.",
+        "path": "/food/penang-cendol.jpg"
     },
     {
-      "icon": "🍜",
-      "title": "Clay Pot Chicken Rice",
-      "desc_short": "Stir-fried noodles with seafood and pork in a savory broth",
-      "path": "/food/penang-hokkien-mee.jpg"
+        "title": "Clay Pot Chicken Rice",
+        "desc_short": "Flavorful rice cooked in a clay pot with chicken, Chinese sausage, and vegetables.",
+        "path": "/food/penang-claypot-chicken-rice.jpg"
     },
     {
-      "icon": "🍜",
-      "title": "Clay Pot Chicken Rice",
-      "desc_short": "Stir-fried noodles with seafood and pork in a savory broth",
-      "path": "/food/penang-hokkien-mee.jpg"
+        "title": "Char Kuey Teow",
+        "desc_short": "Stir-fried flat rice noodles with shrimp, sprouts, eggs, and chives, seasoned with soy sauce and chili.",
+        "path": "/food/penang-char-kuey-teow.jpg"
     },
     {
-      "icon": "🍜",
-      "title": "Clay Pot Chicken Rice",
-      "desc_short": "Stir-fried noodles with seafood and pork in a savory broth",
-      "path": "/food/penang-hokkien-mee.jpg"
+        "title": "Nasi Kandar",
+        "desc_short": "A popular Malaysian dish where rice is served with a variety of curries and side dishes.",
+        "path": "/food/penang-nasi-kandar.jpg"
     }
-  ]
-  
+]
