@@ -99,7 +99,7 @@ function Hotels() {
       {/* Title Part */}
       <div
         ref={sectionRef}
-        className={`flex flex-col mt-8 mx-12 xl:w-10/12 2xl:w-4/6 xl:mx-auto ${
+        className={`flex flex-col mt-36 mx-12 xl:w-10/12 2xl:w-4/6 xl:mx-auto ${
           animate ? "fadeInUpTitle" : "opacity-0"
         }`}
       >
