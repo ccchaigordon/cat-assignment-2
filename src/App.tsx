@@ -1,6 +1,6 @@
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import Discover from "./components/Discover";
+import Hero from "./components/Hero";
 import About from "./components/About";
 import Attractions from "./components/Attractions";
 import Food from "./components/Food";
@@ -17,10 +17,10 @@ function App() {
         </div>
         <main className="flex-grow">
           {" "}
-          <Discover />
+          <Hero />
           <About />
           <Attractions />
-          <div className="h-[70vh]">
+          <div className="h-[45vh] sm:h-[70vh]">
             <Food />
           </div>
           <Hotels />
