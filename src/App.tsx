@@ -7,6 +7,7 @@ import Food from "./components/Food";
 import Hotels from "./components/Hotels";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
+import Team from "./components/Team";
 import "./App.css";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Hotels />
           <Contact />
           <Gallery />
+          <Team />
         </main>
         <Footer />
       </div>
