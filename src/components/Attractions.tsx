@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Link } from "react-scroll";
 import attractions from "../data/attractions.json";
 
 function Attractions() {
@@ -126,12 +127,20 @@ function Attractions() {
         </div>
         <div className="flex justify-center space-x-4 mt-12">
           {visible > 3 && (
-            <button
-              className="bg-secondary border-secondary rounded-full inline-flex items-center justify-center py-3 px-7 text-center text-base font-bold text-[#4450ff] border-2 border-[#4450ff] hover:text-[#0011ff] hover:border-[#0011ff] disabled:bg-gray-3 disabled:border-gray-3 disabled:text-dark-5"
-              onClick={showLess}
+            <Link
+              to="slideLeft-element"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={100}
             >
-              Show Less
-            </button>
+              <button
+                className="bg-secondary border-secondary rounded-full inline-flex items-center justify-center py-3 px-7 text-center text-base font-bold text-[#4450ff] border-2 border-[#4450ff] hover:text-[#0011ff] hover:border-[#0011ff] disabled:bg-gray-3 disabled:border-gray-3 disabled:text-dark-5"
+                onClick={showLess}
+              >
+                Show Less
+              </button>
+            </Link>
           )}
           {visible < attractions.length && (
             <button
