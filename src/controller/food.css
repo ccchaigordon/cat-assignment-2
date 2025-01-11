@@ -10,6 +10,11 @@
   animation: carousel-animate-vertical 63s linear infinite;
 }
 
+.carousel_container:hover .carousel__item {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
 .carousel__item:nth-child(1) {
   -webkit-animation-delay: calc(7s * -1);
   animation-delay: calc(7s * -1);
