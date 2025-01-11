@@ -45,8 +45,7 @@ function About() {
                 <p className="text-center lg:text-justify text-sm sm:text-lg">
                   known as the 'Pearl of the Orient,' is a UNESCO World Heritage
                   Site with a perfect mix of heritage, modernity, and natural
-                  wonders. Let's uncover its hidden gems together! (can yap more
-                  here make it like a small paragraph)
+                  wonders. Let's uncover its hidden gems together!
                 </p>
               </div>
               <div className="flex flex-col gap-6 lg:gap-10 mt-12 lg:mt-16 mx-auto lg:mx-0">
