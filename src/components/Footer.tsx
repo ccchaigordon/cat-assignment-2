@@ -141,7 +141,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    to="accommodation"
+                    to="accommodations"
                     spy={true}
                     smooth={true}
                     offset={-150}

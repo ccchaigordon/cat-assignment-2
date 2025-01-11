@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <>
       <nav className="sticky top-0 z-50">
-        <div className="hero-slide-down mx-auto px-2 sm:px-4 lg:px-20 bg-blue-700 opacity-95 shadow-2xl">
+        <div className="hero-slide-down mx-auto px-2 sm:px-4 lg:px-20 bg-blue-700 opacity-95 shadow-xl">
           <div className="relative flex h-20 items-center justify-between">
             {/* Mobile menu dropdown button */}
             <div className="absolute m-6 inset-y-0 left-0 flex items-center sm:hidden">
