@@ -106,14 +106,14 @@ function About() {
               <div className="relative w-full max-w-xl aspect-square">
                 <div className="absolute inset-0 flex justify-center items-center rounded-full top-10 left-40 w-64 h-[30rem] overflow-hidden  animate-float">
                   <img
-                    src="/assets/mural_georgetown.jpg"
+                    src="/assets/nature.JPG"
                     alt="Example"
                     className="w-[full] h-full object-cover"
                   />
                 </div>
                 <div className="absolute flex justify-center items-center w-[30%] h-[30%] top-[10%] left-[12%] border-8 border-[white] rounded-full bg-[rgba(32,229,239,0.2)] overflow-hidden animate-float-delay-200">
                   <img
-                    src="/assets/mural_georgetown.jpg"
+                    src="/assets/seaside.jpg"
                     alt="Circle 1"
                     className="w-full h-full object-cover rounded-full"
                   />
