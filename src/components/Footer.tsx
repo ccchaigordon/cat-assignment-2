@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 function Footer() {
   return (
     <>
@@ -5,13 +7,16 @@ function Footer() {
         <div className="mx-auto max-w-7xl px-8 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
             <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
-              <a href="/" className="flex justify-center lg:justify-start">
+              <Link
+                to="hero"
+                className="flex justify-center lg:justify-start cursor-pointer"
+              >
                 <img
                   src="/assets/penang_logo_gold.svg"
                   alt=""
                   className="h-20"
                 />
-              </a>
+              </Link>
             </div>
 
             <div className="lg:mx-auto text-left ">
@@ -20,17 +25,29 @@ function Footer() {
               </h4>
               <ul className="text-xs sm:text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <a href="/" className="text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className="text-white hover:text-gray-900"
+                  >
                     Search More
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className=" text-white hover:text-gray-900"
+                  >
                     Blogs
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className=" text-white hover:text-gray-900"
+                  >
                     Events
                   </a>
                 </li>
@@ -43,22 +60,38 @@ function Footer() {
               </h4>
               <ul className="text-xs sm:text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <a href="/" className="text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className="text-white hover:text-gray-900"
+                  >
                     Services
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className=" text-white hover:text-gray-900"
+                  >
                     Supports
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className=" text-white hover:text-gray-900"
+                  >
                     Terms & Condition
                   </a>
                 </li>
                 <li>
-                  <a href="/" className=" text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className=" text-white hover:text-gray-900"
+                  >
                     Privacy Policy
                   </a>
                 </li>
@@ -70,22 +103,38 @@ function Footer() {
               </h4>
               <ul className="text-xs sm:text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <a href="/" className="text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className="text-white hover:text-gray-900"
+                  >
                     About Penang
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className=" text-white hover:text-gray-900"
+                  >
                     Attractions
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="/" className=" text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className=" text-white hover:text-gray-900"
+                  >
                     Food
                   </a>
                 </li>
                 <li>
-                  <a href="/" className=" text-white hover:text-gray-900">
+                  <a
+                    href=""
+                    onClick={(e) => e.preventDefault()}
+                    className=" text-white hover:text-gray-900"
+                  >
                     Accommodation
                   </a>
                 </li>
@@ -109,7 +158,8 @@ function Footer() {
                 <li className="flex flex-row cursor-pointer mb-4 text-center items-center">
                   <img src="/assets/email.svg" alt="" className="h-6 invert" />
                   <a
-                    href="/"
+                    href=""
+                    onClick={(e) => e.preventDefault()}
                     className="text-white hover:text-gray-900 ml-2 text-xs md:text-sm"
                   >
                     discoverpenang.com
@@ -122,12 +172,17 @@ function Footer() {
           <div className="py-7 border-t border-gray-200">
             <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
               <span className="sm:text-sm text-white text-center text-xs">
-                ©<a href="/"> CAT-201 Assignment 2</a> 2025, All rights
-                reserved.
+                ©
+                <a href="" onClick={(e) => e.preventDefault()}>
+                  {" "}
+                  CAT-201 Assignment 2
+                </a>{" "}
+                2025, All rights reserved.
               </span>
               <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                 <a
-                  href="/"
+                  href=""
+                  onClick={(e) => e.preventDefault()}
                   className="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:bg-gray-200"
                 >
                   <svg
@@ -147,7 +202,8 @@ function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="/"
+                  href=""
+                  onClick={(e) => e.preventDefault()}
                   className="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:bg-gray-200"
                 >
                   <svg
@@ -163,7 +219,8 @@ function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="/"
+                  href=""
+                  onClick={(e) => e.preventDefault()}
                   className="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:bg-gray-200"
                 >
                   <svg
@@ -179,7 +236,8 @@ function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="/"
+                  href=""
+                  onClick={(e) => e.preventDefault()}
                   className="w-9 h-9 rounded-full bg-white flex justify-center items-center hover:bg-gray-200"
                 >
                   <svg
