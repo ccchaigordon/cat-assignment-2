@@ -62,7 +62,7 @@ function About() {
 
                 <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start">
                   <p className="text-[#1C42CA] text-2xl sm:text-4xl lg:text-3xl xl:text-4xl font-semibold text-center lg:text-left">
-                    200+
+                    17+
                   </p>
                   <div className="mt-1 sm:mt-0 sm:ml-4">
                     <p className="text-md sm:text-xl lg:text-lg text-center">

@@ -94,7 +94,11 @@ function Attractions() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
-                    <a href="#" className="mt-2 block">
+                    <a
+                      href=""
+                      onClick={(e) => e.preventDefault()}
+                      className="mt-2 block"
+                    >
                       <p className="text-xl font-semibold text-gray-900">
                         {attraction.title}
                       </p>
@@ -105,7 +109,7 @@ function Attractions() {
                   </div>
                   <div className="mt-6 flex items-center">
                     <div className="flex-shrink-0">
-                      <a href="#">
+                      <a href="" onClick={(e) => e.preventDefault()}>
                         <img
                           className="h-10 w-10 rounded-full"
                           src={attraction.icon}

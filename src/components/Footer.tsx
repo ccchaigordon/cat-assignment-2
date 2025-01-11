@@ -104,40 +104,52 @@ function Footer() {
               </h4>
               <ul className="text-xs sm:text-sm  transition-all duration-500">
                 <li className="mb-4">
-                  <a
-                    href=""
-                    onClick={(e) => e.preventDefault()}
-                    className="text-white hover:text-gray-900"
+                  <Link
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={300}
+                    className="text-white hover:text-gray-900 cursor-pointer"
                   >
                     About Penang
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
-                    href=""
-                    onClick={(e) => e.preventDefault()}
-                    className=" text-white hover:text-gray-900"
+                  <Link
+                    to="slideLeft-element"
+                    spy={true}
+                    smooth={true}
+                    offset={-150}
+                    duration={300}
+                    className=" text-white hover:text-gray-900 cursor-pointer"
                   >
                     Attractions
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
-                    href=""
-                    onClick={(e) => e.preventDefault()}
-                    className=" text-white hover:text-gray-900"
+                  <Link
+                    to="food"
+                    spy={true}
+                    smooth={true}
+                    offset={-150}
+                    duration={300}
+                    className=" text-white hover:text-gray-900 cursor-pointer"
                   >
                     Food
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href=""
-                    onClick={(e) => e.preventDefault()}
-                    className=" text-white hover:text-gray-900"
+                  <Link
+                    to="accommodation"
+                    spy={true}
+                    smooth={true}
+                    offset={-150}
+                    duration={300}
+                    className=" text-white hover:text-gray-900 cursor-pointer"
                   >
                     Accommodation
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
