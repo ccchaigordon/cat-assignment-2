@@ -30,7 +30,7 @@ function Hero() {
             to="gallery"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-80}
             duration={300}
           >
             <button className="hero-slide-up-delay bg-transparent md:ml-4 text-white font-semibold items-center mt-4 md:mt-10 hover:bg-blue-700 py-4 px-8 rounded-xl shadow-md transition duration-300 ease-in-out">
