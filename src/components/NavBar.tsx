@@ -62,13 +62,13 @@ function NavBar() {
                 className="flex-shrink-0 flex items-center cursor-pointer"
               >
                 <img
-                  className="block lg:hidden h-10 w-auto"
-                  src="/assets/penang_logo.svg"
+                  className="block lg:hidden h-24 w-auto"
+                  src="/assets/logo.svg"
                   alt="Logo"
                 />
                 <img
-                  className="hidden lg:block h-12 w-auto"
-                  src="/assets/penang_logo.svg"
+                  className="hidden lg:block h-32 w-auto"
+                  src="/assets/logo.svg"
                   alt="Logo"
                 />
               </Link>

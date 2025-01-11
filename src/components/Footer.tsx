@@ -9,13 +9,14 @@ function Footer() {
             <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
               <Link
                 to="hero"
-                className="flex justify-center lg:justify-start cursor-pointer"
+                className="flex justify-center lg:justify-start cursor-pointer items-center"
               >
                 <img
                   src="/assets/penang_logo_gold.svg"
                   alt=""
                   className="h-20"
                 />
+                <img src="/assets/logo.svg" alt="" className="h-32" />
               </Link>
             </div>
 
