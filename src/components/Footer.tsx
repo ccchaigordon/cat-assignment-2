@@ -148,7 +148,7 @@ function Footer() {
                     duration={300}
                     className=" text-white hover:text-gray-900 cursor-pointer"
                   >
-                    Accommodation
+                    Accommodations
                   </Link>
                 </li>
               </ul>
@@ -175,7 +175,7 @@ function Footer() {
                     onClick={(e) => e.preventDefault()}
                     className="text-white hover:text-gray-900 ml-2 text-xs md:text-sm"
                   >
-                    discoverpenang.com
+                    tripessence.com
                   </a>
                 </li>
               </ul>
@@ -188,7 +188,7 @@ function Footer() {
                 ©
                 <a href="" onClick={(e) => e.preventDefault()}>
                   {" "}
-                  CAT-201 Assignment 2
+                  Trip Essence
                 </a>{" "}
                 2025, All rights reserved.
               </span>
