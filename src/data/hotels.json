@@ -19,7 +19,7 @@
         "id": 3,
         "image": "/hotels/g_hotel.jpg",
         "title": "G Hotel Gurney",
-        "category": "Luxury Stays; Family Hotels",
+        "category": "Luxury Stays; Budget Stays",
         "location": "Persiaran Gurney, George Town",
         "ratings": 4.6
     },
@@ -70,5 +70,53 @@
         "category": "Luxury Stays; Family Hotels;",
         "location": "Lebuh Armenian, George Town",
         "ratings": 4.7
+    },
+    {
+        "id": 10,
+        "image": "/hotels/granite_hotel.jpg",
+        "title": "The Granite Luxury Hotel",
+        "category": "Luxury Stays; Family Hotels;",
+        "location": "George Town, Penang",
+        "ratings": 4.5
+    },
+    {
+        "id": 11,
+        "image": "/hotels/sunway_hotel.jpg",
+        "title": "Sunway Hotel Georgetown",
+        "category": "Family Hotels;",
+        "location": "George Town, Penang",
+        "ratings": 4.0
+    },
+    {
+        "id": 12,
+        "image": "/hotels/lone_pine.jpg",
+        "title": "Lone Pine Hotel",
+        "category": "Family Hotels; Beach Resorts",
+        "location": "Batu Ferringhi, Penang",
+        "ratings": 4.0
+    },
+    {
+        "id": 13,
+        "image": "/hotels/kim_haus_loft.jpg",
+        "title": "Kim Haus Loft",
+        "category": "Family Hotels; Budget Stays",
+        "location": "George Town, Penang",
+        "ratings": 4.0
+    },
+    {
+        "id": 14,
+        "image": "/hotels/rare_heritage_house.jpg",
+        "title": "Rare Heritage House",
+        "category": "Family Hotels; Boutique Hotels; Budget Stays",
+        "location": "George Town, Penang",
+        "ratings": 4.5
+    },
+    {
+        "id": 15,
+        "image": "/hotels/loop_on_leith.png",
+        "title": "Loop On Leith",
+        "category": "Luxury Stays; Family Hotels; Boutique Hotels; Budget Stays",
+        "location": "George Town, Penang",
+        "ratings": 4.0
     }
 ]
