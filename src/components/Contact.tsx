@@ -76,7 +76,7 @@ const Contact = () => {
                       Email Address
                     </h4>
                     <p className="text-base text-body-color ">
-                      discoverpenang.com
+                      tripessence.com
                     </p>
                   </div>
                 </div>
