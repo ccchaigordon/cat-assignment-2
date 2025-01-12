@@ -46,10 +46,20 @@ function Gallery() {
             className="item"
             style={{ backgroundImage: "url('/gallery/medium_1.jpg')" }}
           ></div>
-          <div
-            className="item item--large"
-            style={{ backgroundImage: "url('/gallery/large_1.JPG')" }}
-          ></div>
+          <div className="item item--large">
+            <video
+              autoPlay
+              loop
+              muted
+              className="absolute w-screen h-screen object-cover"
+            >
+              <source
+                src="/gallery/penang_hill_memories.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           <div
             className="item item--medium"
             style={{ backgroundImage: "url('/gallery/medium_2.jpg')" }}
